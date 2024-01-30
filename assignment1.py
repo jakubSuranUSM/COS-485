@@ -25,6 +25,13 @@ for i in range(len(S) - 2):
             print(f"({S[i]}, {S[j]}, {S[k]})")
 
 # 3) Discuss and write the Insertion Sort algorithm.
+"""
+Insertion Sort is a sorting algorithm that builds the sorted array one element at a time.
+It maintains a sorted and unsorted parts of the array. It can be implemented by using
+two loops. It takes out the current element and then uses the inner loop to find the correct
+position of that element and move the other elements by one position to make space for it.
+The worst case time complexity is O(n^2).
+"""
 S = random.sample(range(0, 100), 20)
 print(f"\nSet S: {S}")
 
