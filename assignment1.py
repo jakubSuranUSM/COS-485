@@ -46,7 +46,8 @@ for i in range(1, len(S)):
 print(f"S after insertion sort {S}")
 
 # 4) Write an algorithm to find the greatest common divisor of two integers.
-# Implementing Euclidean algorithm
+# I did some research and decided to implement the Euclidean algorithm
+# https://en.wikipedia.org/wiki/Greatest_common_divisor#Euclidean_algorithm
 a = random.randint(1, 1000)
 b = random.randint(1, 1000)
 
